@@ -15,7 +15,7 @@ class Endereco {
     this._estado
   );
 
-  //Get - formatado
+  //Get
   String? get rua => "Rua: ${this._rua}.";
   String? get numero => "Número da casa/apartamento: ${this._numero}.";
   String? get bairro => "Bairro: ${this._bairro}.";
